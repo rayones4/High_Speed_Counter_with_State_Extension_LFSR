@@ -1,0 +1,103 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\2024-2025\2. Bangalore\Hasan 1\Project 13\Codes\New Final with Power\Proposed
+vBinary_Counter_58bit
+IcM0HXgO8XLGdW0ahRQ2mz2
+V0oJh1lIHaOY4nGVCQI8=<3
+w1713676397
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Counter.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Counter.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-work work -O0
+n@binary_@counter_58bit
+!s100 eYHlS`M:_j]e5h=L1H3mQ1
+!s85 0
+vEdge_DFlipFlop
+IhD8WVKl=e3[jC[gYO>XPo0
+V:N]GJWK;>[BRdcDfCRk3P1
+w1713665910
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF.v
+L0 1
+R1
+r1
+31
+R2
+n@edge_@d@flip@flop
+!s100 <h`JP4EE:f5V7H`TWH8F]1
+!s85 0
+vEdge_DFlipFlop_R
+I]LZfIlPZdk?TJXnWzW_6i3
+VkC0[Rn?ei`N@IO3bHjHd;1
+w1713666225
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF_r.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF_r.v
+L0 1
+R1
+r1
+31
+R2
+n@edge_@d@flip@flop_@r
+!s100 f:6J;FIhF>]C=OL:dV=TA2
+!s85 0
+vProposed_3_Bit_LFSR_Counter
+IN^VTN7cffA8d[TCldbLY^0
+VKmTMe5]B=Lf<mOXIEI`Va0
+w1713666262
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/proposed 3-bit LFSR counter.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/proposed 3-bit LFSR counter.v
+L0 1
+R1
+r1
+31
+R2
+n@proposed_3_@bit_@l@f@s@r_@counter
+!s100 1<gG6=JU6KiK>@Ii<UTAP0
+!s85 0
+vProposed_6_Bit_LFSR_Counter
+IJR6Bb5^UVdd`o8g<m9dCA1
+VXcL`^HcN`KGPhDA8jA7_H1
+w1713668609
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed 6-bit LFSR counter.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed 6-bit LFSR counter.v
+L0 1
+R1
+r1
+31
+R2
+n@proposed_6_@bit_@l@f@s@r_@counter
+!s100 ao^ZXFG3aFij3jeSo@lF=2
+!s85 0
+vProposed_Counter_64_Bit
+Iin9LbjZL1NLcB4Z`12Zm;2
+VC<6QV:`_lA;@:KJ]Af^zL3
+w1713679508
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed.v
+L0 1
+R1
+r1
+31
+R2
+n@proposed_@counter_64_@bit
+!s100 ]XgI:?UDzCFD=?oATo@cP3
+!s85 0
+vProposed_Tb
+!s100 MnQ;5dlA@j<JHRUb=oBPE3
+I[S<@]nmeKka4QTjb4e<4Z3
+VShSAig`YDTN]gmBdRkOT21
+w1714721204
+8F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/tb.v
+FF:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/tb.v
+L0 1
+R1
+r1
+!s85 0
+31
+R2
+n@proposed_@tb

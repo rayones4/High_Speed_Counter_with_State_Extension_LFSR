@@ -1,0 +1,160 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed 6-bit LFSR counter.v} 
+vlib work
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Binary_Counter_58bit
+# 
+# Top level modules:
+# 	Binary_Counter_58bit
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Edge_DFlipFlop
+# 
+# Top level modules:
+# 	Edge_DFlipFlop
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF_r.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Edge_DFlipFlop_R
+# 
+# Top level modules:
+# 	Edge_DFlipFlop_R
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/proposed 3-bit LFSR counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_3_Bit_LFSR_Counter
+# 
+# Top level modules:
+# 	Proposed_3_Bit_LFSR_Counter
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed 6-bit LFSR counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_6_Bit_LFSR_Counter
+# 
+# Top level modules:
+# 	Proposed_6_Bit_LFSR_Counter
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_Counter_64_Bit
+# 
+# Top level modules:
+# 	Proposed_Counter_64_Bit
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_Tb
+# 
+# Top level modules:
+# 	Proposed_Tb
+vsim -gui work.Proposed_6_Bit_LFSR_Counter
+# vsim -gui work.Proposed_6_Bit_LFSR_Counter 
+# Loading work.Proposed_6_Bit_LFSR_Counter
+# Loading work.Edge_DFlipFlop
+# Loading work.Edge_DFlipFlop_R
+add wave -r sim:/Proposed_6_Bit_LFSR_Counter/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: DESKTOP-97OAJC1  ProcessID: 332
+#           Attempting to use alternate WLF file "./wlft4hehyk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4hehyk
+force -freeze sim:/Proposed_6_Bit_LFSR_Counter/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/Proposed_6_Bit_LFSR_Counter/Rst 1 0
+force -freeze sim:/Proposed_6_Bit_LFSR_Counter/CNT 1 0
+run
+run
+run
+force -freeze sim:/Proposed_6_Bit_LFSR_Counter/Rst 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/Proposed_6_Bit_LFSR_Counter/Rst 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Binary_Counter_58bit
+# 
+# Top level modules:
+# 	Binary_Counter_58bit
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Edge_DFlipFlop
+# 
+# Top level modules:
+# 	Edge_DFlipFlop
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/DFF_r.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Edge_DFlipFlop_R
+# 
+# Top level modules:
+# 	Edge_DFlipFlop_R
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/proposed 3-bit LFSR counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_3_Bit_LFSR_Counter
+# 
+# Top level modules:
+# 	Proposed_3_Bit_LFSR_Counter
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed 6-bit LFSR counter.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_6_Bit_LFSR_Counter
+# 
+# Top level modules:
+# 	Proposed_6_Bit_LFSR_Counter
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/Proposed.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_Counter_64_Bit
+# 
+# Top level modules:
+# 	Proposed_Counter_64_Bit
+vlog -reportprogress 300 -work work {F:/2024-2025/2. Bangalore/Hasan 1/Project 13/Codes/New Final with Power/Proposed/tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Proposed_Tb
+# 
+# Top level modules:
+# 	Proposed_Tb
+vsim -gui work.Proposed_Tb
+# vsim -gui work.Proposed_Tb 
+# Loading work.Proposed_Tb
+# Loading work.Proposed_Counter_64_Bit
+# Loading work.Proposed_6_Bit_LFSR_Counter
+# Loading work.Edge_DFlipFlop
+# Loading work.Edge_DFlipFlop_R
+# Loading work.Binary_Counter_58bit
+add wave -r sim:/Proposed_Tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: DESKTOP-97OAJC1  ProcessID: 332
+#           Attempting to use alternate WLF file "./wlftgebywz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgebywz
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

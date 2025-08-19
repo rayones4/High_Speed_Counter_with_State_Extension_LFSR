@@ -1,0 +1,874 @@
+$date
+	Fri May 03 13:12:46 2024
+$end
+$version
+	ModelSim Version 6.4a
+$end
+$timescale
+	1ps
+$end
+$scope module Modified_Tb $end
+$var reg 1 ! Clk $end
+$var reg 1 " nRst $end
+$var reg 1 # CNT $end
+$var wire 1 $ Out [63] $end
+$var wire 1 % Out [62] $end
+$var wire 1 & Out [61] $end
+$var wire 1 ' Out [60] $end
+$var wire 1 ( Out [59] $end
+$var wire 1 ) Out [58] $end
+$var wire 1 * Out [57] $end
+$var wire 1 + Out [56] $end
+$var wire 1 , Out [55] $end
+$var wire 1 - Out [54] $end
+$var wire 1 . Out [53] $end
+$var wire 1 / Out [52] $end
+$var wire 1 0 Out [51] $end
+$var wire 1 1 Out [50] $end
+$var wire 1 2 Out [49] $end
+$var wire 1 3 Out [48] $end
+$var wire 1 4 Out [47] $end
+$var wire 1 5 Out [46] $end
+$var wire 1 6 Out [45] $end
+$var wire 1 7 Out [44] $end
+$var wire 1 8 Out [43] $end
+$var wire 1 9 Out [42] $end
+$var wire 1 : Out [41] $end
+$var wire 1 ; Out [40] $end
+$var wire 1 < Out [39] $end
+$var wire 1 = Out [38] $end
+$var wire 1 > Out [37] $end
+$var wire 1 ? Out [36] $end
+$var wire 1 @ Out [35] $end
+$var wire 1 A Out [34] $end
+$var wire 1 B Out [33] $end
+$var wire 1 C Out [32] $end
+$var wire 1 D Out [31] $end
+$var wire 1 E Out [30] $end
+$var wire 1 F Out [29] $end
+$var wire 1 G Out [28] $end
+$var wire 1 H Out [27] $end
+$var wire 1 I Out [26] $end
+$var wire 1 J Out [25] $end
+$var wire 1 K Out [24] $end
+$var wire 1 L Out [23] $end
+$var wire 1 M Out [22] $end
+$var wire 1 N Out [21] $end
+$var wire 1 O Out [20] $end
+$var wire 1 P Out [19] $end
+$var wire 1 Q Out [18] $end
+$var wire 1 R Out [17] $end
+$var wire 1 S Out [16] $end
+$var wire 1 T Out [15] $end
+$var wire 1 U Out [14] $end
+$var wire 1 V Out [13] $end
+$var wire 1 W Out [12] $end
+$var wire 1 X Out [11] $end
+$var wire 1 Y Out [10] $end
+$var wire 1 Z Out [9] $end
+$var wire 1 [ Out [8] $end
+$var wire 1 \ Out [7] $end
+$var wire 1 ] Out [6] $end
+$var wire 1 ^ Out [5] $end
+$var wire 1 _ Out [4] $end
+$var wire 1 ` Out [3] $end
+$var wire 1 a Out [2] $end
+$var wire 1 b Out [1] $end
+$var wire 1 c Out [0] $end
+$scope module M1 $end
+$var wire 1 d Clk $end
+$var wire 1 e nRst $end
+$var wire 1 f CNT $end
+$var wire 1 $ Out [63] $end
+$var wire 1 % Out [62] $end
+$var wire 1 & Out [61] $end
+$var wire 1 ' Out [60] $end
+$var wire 1 ( Out [59] $end
+$var wire 1 ) Out [58] $end
+$var wire 1 * Out [57] $end
+$var wire 1 + Out [56] $end
+$var wire 1 , Out [55] $end
+$var wire 1 - Out [54] $end
+$var wire 1 . Out [53] $end
+$var wire 1 / Out [52] $end
+$var wire 1 0 Out [51] $end
+$var wire 1 1 Out [50] $end
+$var wire 1 2 Out [49] $end
+$var wire 1 3 Out [48] $end
+$var wire 1 4 Out [47] $end
+$var wire 1 5 Out [46] $end
+$var wire 1 6 Out [45] $end
+$var wire 1 7 Out [44] $end
+$var wire 1 8 Out [43] $end
+$var wire 1 9 Out [42] $end
+$var wire 1 : Out [41] $end
+$var wire 1 ; Out [40] $end
+$var wire 1 < Out [39] $end
+$var wire 1 = Out [38] $end
+$var wire 1 > Out [37] $end
+$var wire 1 ? Out [36] $end
+$var wire 1 @ Out [35] $end
+$var wire 1 A Out [34] $end
+$var wire 1 B Out [33] $end
+$var wire 1 C Out [32] $end
+$var wire 1 D Out [31] $end
+$var wire 1 E Out [30] $end
+$var wire 1 F Out [29] $end
+$var wire 1 G Out [28] $end
+$var wire 1 H Out [27] $end
+$var wire 1 I Out [26] $end
+$var wire 1 J Out [25] $end
+$var wire 1 K Out [24] $end
+$var wire 1 L Out [23] $end
+$var wire 1 M Out [22] $end
+$var wire 1 N Out [21] $end
+$var wire 1 O Out [20] $end
+$var wire 1 P Out [19] $end
+$var wire 1 Q Out [18] $end
+$var wire 1 R Out [17] $end
+$var wire 1 S Out [16] $end
+$var wire 1 T Out [15] $end
+$var wire 1 U Out [14] $end
+$var wire 1 V Out [13] $end
+$var wire 1 W Out [12] $end
+$var wire 1 X Out [11] $end
+$var wire 1 Y Out [10] $end
+$var wire 1 Z Out [9] $end
+$var wire 1 [ Out [8] $end
+$var wire 1 \ Out [7] $end
+$var wire 1 ] Out [6] $end
+$var wire 1 ^ Out [5] $end
+$var wire 1 _ Out [4] $end
+$var wire 1 ` Out [3] $end
+$var wire 1 a Out [2] $end
+$var wire 1 b Out [1] $end
+$var wire 1 c Out [0] $end
+$var wire 1 g X $end
+$var wire 1 h Next $end
+$scope module M0 $end
+$var reg 6 i out [5:0] $end
+$var wire 1 h Next $end
+$var wire 1 d clk $end
+$var wire 1 e rst $end
+$var wire 1 j feedback $end
+$upscope $end
+$scope module M1 $end
+$var wire 1 d Clk $end
+$var wire 1 e Rst $end
+$var wire 1 g En $end
+$var reg 58 k Count_Out [57:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+1#
+b111111 i
+b0 k
+1c
+1b
+1a
+1`
+1_
+1^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0g
+0h
+0j
+1f
+1e
+1d
+$end
+#50
+0!
+0d
+#100
+1!
+1d
+#150
+0!
+0d
+#200
+1!
+1d
+#250
+0!
+0d
+#300
+1!
+1d
+#350
+0!
+0d
+#400
+1!
+1d
+#450
+0!
+0d
+#500
+0"
+1!
+1d
+0e
+b1110 i
+0c
+0_
+0^
+1j
+1h
+1g
+#550
+0!
+0d
+#600
+1!
+1d
+b1101 i
+1c
+0b
+b1 k
+1]
+#650
+0!
+0d
+#700
+1!
+1d
+b1011 i
+1b
+0a
+0j
+0h
+0g
+b10 k
+0]
+1\
+#750
+0!
+0d
+#800
+1!
+1d
+b110 i
+0c
+1a
+0`
+#850
+0!
+0d
+#900
+1!
+1d
+b1100 i
+0b
+1`
+1j
+1h
+1g
+#950
+0!
+0d
+#1000
+1!
+1d
+b1001 i
+1c
+0a
+0j
+0h
+0g
+b11 k
+1]
+#1050
+0!
+0d
+#1100
+1!
+1d
+b10 i
+0c
+1b
+0`
+1j
+1h
+1g
+#1150
+0!
+0d
+#1200
+1!
+1d
+b101 i
+1c
+0b
+1a
+0j
+0h
+0g
+b100 k
+0]
+0\
+1[
+#1250
+0!
+0d
+#1300
+1!
+1d
+b1010 i
+0c
+1b
+0a
+1`
+#1350
+0!
+0d
+#1400
+1!
+1d
+b100 i
+0b
+1a
+0`
+#1450
+0!
+0d
+#1500
+1!
+1d
+b1000 i
+0a
+1`
+#1550
+0!
+0d
+#1600
+1!
+1d
+b0 i
+0`
+1j
+1h
+1g
+#1650
+0!
+0d
+#1700
+1!
+1d
+b1 i
+1c
+b101 k
+1]
+#1750
+0!
+0d
+#1800
+1!
+1d
+b11 i
+1b
+b110 k
+0]
+1\
+#1850
+0!
+0d
+#1900
+1!
+1d
+b111 i
+1a
+0j
+0h
+0g
+b111 k
+1]
+#1950
+0!
+0d
+#2000
+1!
+1d
+b1110 i
+0c
+1`
+1j
+1h
+1g
+#2050
+0!
+0d
+#2100
+1!
+1d
+b1101 i
+1c
+0b
+b1000 k
+0]
+0\
+0[
+1Z
+#2150
+0!
+0d
+#2200
+1!
+1d
+b1011 i
+1b
+0a
+0j
+0h
+0g
+b1001 k
+1]
+#2250
+0!
+0d
+#2300
+1!
+1d
+b110 i
+0c
+1a
+0`
+#2350
+0!
+0d
+#2400
+1!
+1d
+b1100 i
+0b
+1`
+1j
+1h
+1g
+#2450
+0!
+0d
+#2500
+1!
+1d
+b1001 i
+1c
+0a
+0j
+0h
+0g
+b1010 k
+0]
+1\
+#2550
+0!
+0d
+#2600
+1!
+1d
+b10 i
+0c
+1b
+0`
+1j
+1h
+1g
+#2650
+0!
+0d
+#2700
+1!
+1d
+b101 i
+1c
+0b
+1a
+0j
+0h
+0g
+b1011 k
+1]
+#2750
+0!
+0d
+#2800
+1!
+1d
+b1010 i
+0c
+1b
+0a
+1`
+#2850
+0!
+0d
+#2900
+1!
+1d
+b100 i
+0b
+1a
+0`
+#2950
+0!
+0d
+#3000
+1!
+1d
+b1000 i
+0a
+1`
+#3050
+0!
+0d
+#3100
+1!
+1d
+b0 i
+0`
+1j
+1h
+1g
+#3150
+0!
+0d
+#3200
+1!
+1d
+b1 i
+1c
+b1100 k
+0]
+0\
+1[
+#3250
+0!
+0d
+#3300
+1!
+1d
+b11 i
+1b
+b1101 k
+1]
+#3350
+0!
+0d
+#3400
+1!
+1d
+b111 i
+1a
+0j
+0h
+0g
+b1110 k
+0]
+1\
+#3450
+0!
+0d
+#3500
+1!
+1d
+b1110 i
+0c
+1`
+1j
+1h
+1g
+#3550
+0!
+0d
+#3600
+1!
+1d
+b1101 i
+1c
+0b
+b1111 k
+1]
+#3650
+0!
+0d
+#3700
+1!
+1d
+b1011 i
+1b
+0a
+0j
+0h
+0g
+b10000 k
+0]
+0\
+0[
+0Z
+1Y
+#3750
+0!
+0d
+#3800
+1!
+1d
+b110 i
+0c
+1a
+0`
+#3850
+0!
+0d
+#3900
+1!
+1d
+b1100 i
+0b
+1`
+1j
+1h
+1g
+#3950
+0!
+0d
+#4000
+1!
+1d
+b1001 i
+1c
+0a
+0j
+0h
+0g
+b10001 k
+1]
+#4050
+0!
+0d
+#4100
+1!
+1d
+b10 i
+0c
+1b
+0`
+1j
+1h
+1g
+#4150
+0!
+0d
+#4200
+1!
+1d
+b101 i
+1c
+0b
+1a
+0j
+0h
+0g
+b10010 k
+0]
+1\
+#4250
+0!
+0d
+#4300
+1!
+1d
+b1010 i
+0c
+1b
+0a
+1`
+#4350
+0!
+0d
+#4400
+1!
+1d
+b100 i
+0b
+1a
+0`
+#4450
+0!
+0d
+#4500
+1!
+1d
+b1000 i
+0a
+1`
+#4550
+0!
+0d
+#4600
+1!
+1d
+b0 i
+0`
+1j
+1h
+1g
+#4650
+0!
+0d
+#4700
+1!
+1d
+b1 i
+1c
+b10011 k
+1]
+#4750
+0!
+0d
+#4800
+1!
+1d
+b11 i
+1b
+b10100 k
+0]
+0\
+1[
+#4850
+0!
+0d
+#4900
+1!
+1d
+b111 i
+1a
+0j
+0h
+0g
+b10101 k
+1]
+#4950
+0!
+0d
+#5000
+1!
+1d
+b1110 i
+0c
+1`
+1j
+1h
+1g
+#5050
+0!
+0d
+#5100
+1!
+1d
+b1101 i
+1c
+0b
+b10110 k
+0]
+1\
+#5150
+0!
+0d
+#5200
+1!
+1d
+b1011 i
+1b
+0a
+0j
+0h
+0g
+b10111 k
+1]
+#5250
+0!
+0d
+#5300
+1!
+1d
+b110 i
+0c
+1a
+0`
+#5350
+0!
+0d
+#5400
+1!
+1d
+b1100 i
+0b
+1`
+1j
+1h
+1g
+#5450
+0!
+0d
